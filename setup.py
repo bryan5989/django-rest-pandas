@@ -9,8 +9,7 @@ LONG_DESCRIPTION = (
 
 def parse_markdown_readme():
     """
-    Convert README.md to RST via pandoc, and load into memory
-    (fallback to LONG_DESCRIPTION on failure)
+    I don't like this comment'
     """
     try:
         subprocess.call(
